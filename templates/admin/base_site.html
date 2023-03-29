@@ -1,0 +1,4 @@
+{% extends "admin/base.html" %} {% block title %}{% if subtitle %}{{ subtitle }} | {% endif %}{{ title }} | {{ site_title|default:_('Django site admin') }}{% endblock %} {% block branding %}
+{% comment %} {{ site_header|default:_('Polls Administration') }} {% endcomment %}
+<h1>Polls Administration</h1>
+{% endblock %} {% block nav-global %}{% endblock %}
